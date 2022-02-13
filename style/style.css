@@ -1,0 +1,168 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navegador {
+	margin-top: 15%;
+}
+
+.header {
+	display: flex;
+	background-color: #00000080;
+	margin: auto;
+	width: 90%;
+	max-width: 900px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 17px;
+	border-radius: 30px;
+}
+
+ul, ol {
+	list-style: none;
+	border-radius: 30px;
+}
+
+.nav li a {
+    margin: 10px 5px 10px 10px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.nav li a:hover {
+	background-color: #FFFFFF80;
+	color: #000000;
+	border-radius: 20px;
+	
+}
+
+.nav > li {
+	float: left;
+	margin-bottom: auto;
+	margin: 0px -10px 0px 0px;
+}
+
+.nav li ul {
+	display: none;
+	background: #00000080;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+
+body {
+	background:url("../imagenes/fondo.jpg"); /* Nuestra imagen de fondo */
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size: cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	
+	font-family:helvetica, arial, sans-serif;
+	line-height:20px;
+}
+
+.contenedor {
+	width: 90%;
+	max-width:900px;
+	margin:auto;
+}
+
+article {
+	text-align: center;
+	background: #00000080;
+	border-radius: 20px;
+	padding: 30px;
+	margin: 20px 10px 35px;
+	color: #fff;
+	box-shadow: 0px 10px 25px #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.textaligin {
+	text-align: justify;
+}
+
+article hr {
+	background:#A9000090;
+	height:5px;
+	border:none;
+}
+
+article h2, article p, article hr {
+	margin-bottom: 20px;
+}
+
+#box1 {
+	margin-top: 150px;
+}
+
+.box {
+        border-radius: 10px;
+        background: #FFFFFF80;
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+}
+
+.titlebox {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.img {
+	display: block;
+	margin: auto;
+}
+
+footer {
+	background: #D7D7D7;
+	vertical-align: baseline;
+	text-align: center;
+	padding: 25px;
+}
+
+#copy {						/* Estilo para el pie de pagina */
+	text-decoration: none;
+	color: #581C05;
+	font-family: 'Open Sans';
+	font-size: 13pt;
+	font-variant: normal;
+}
+
+.form {                            /* Estilo para el Formulario */
+    text-align: center;
+    
+}
+iframe {
+	border: none;
+	min-width: 300px;
+	width: 100%;
+	min-height: 1300px;
+}
+
+.iframe {
+	min-height: 1200px;
+}
